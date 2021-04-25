@@ -7,7 +7,7 @@ import re
 
 init(convert=True)
 
-ctypes.windll.kernel32.SetConsoleTitleW(f"GD Username Checker")
+ctypes.windll.kernel32.SetConsoleTitleW("GD Username Checker")
 art = figlet_format('GD Username Checker')
 print(art)
 author = figlet_format('by RandomB#6160')
