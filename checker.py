@@ -32,7 +32,7 @@ for line in Lines:
             valid += 1
             print(f"{Fore.GREEN}[+] {playername}")
             ctypes.windll.kernel32.SetConsoleTitleW(f"GD Username Checker | Valid: {valid} | Invalid: {invalid}")
-            k = open('valid.txt', 'w')
+            k = open('valid.txt', 'a')
             k.write(f"{playername}\n")
             k.close()
         else:
